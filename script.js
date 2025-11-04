@@ -17,12 +17,12 @@ function setActiveButton(selectedButton) {
 
 // ตั้งค่าเมื่อกดปุ่ม btn1 เพื่อเปิด และเปลี่ยนสีปุ่ม
 btn1.addEventListener('click', () => {
-    iframe.src = 'https://script.google.com/macros/s/AKfycbyTlzvGLS4poMXZybaTpWMd81Zawl7ZfSv7pT8xR_k9WSnLRWRj390liAPf3CiIwPfTCA/exec';
+    iframe.src = 'https://script.google.com/macros/s/AKfycbyTlzvGLS4poMXZybaTpWMd81Zawl7ZfSv7pT8xR_k9WSnLRWRj390liAPf3CiIwPfTCA/exec?openExternalBrowser=1';
     setActiveButton(btn1);
 });
 
 // ตั้งค่าเมื่อกดปุ่ม btn2 เพื่อเปิด  และเปลี่ยนสีปุ่ม
 btn2.addEventListener('click', () => {
-    iframe.src = 'https://script.google.com/macros/s/AKfycbyLHgwraxLik-Uop838W6qLhWAnKzvCec5cuc5CCZ_c3r7Frf2xbmdm7tIpJBD39pivGg/exec';
+    iframe.src = 'https://script.google.com/macros/s/AKfycbyLHgwraxLik-Uop838W6qLhWAnKzvCec5cuc5CCZ_c3r7Frf2xbmdm7tIpJBD39pivGg/exec?openExternalBrowser=1';
     setActiveButton(btn2);
 });
