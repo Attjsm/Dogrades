@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Charm&family=Sarabun:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
+    <title>แสดงเกรดระดับประถมศึกษา</title>
+    <style>
+      body {
+         font-family: 'Sarabun', sans-serif;
+           }
+        /* จัดสไตล์ให้ปุ่ม */
+        button {
+            font-family: 'Sarabun', sans-serif;
+            margin: 2px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #f0f0f0; /* สีพื้นฐาน */
+            border: 1px solid #ccc;
+            border-radius: 30px;
+            cursor: pointer;
+        }
+
+        /* สไตล์ปุ่มเมื่อถูกเลือก */
+        button.active {
+            background-color: #4CAF50; /* เปลี่ยนเป็นสีเขียว */
+            color: white;
+        }
+
+        /* จัดสไตล์ให้ iframe */
+        iframe {
+            margin-top: 20px;
+            width: 100%;
+            height: 500px;
+            border: 2px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+  <center>
+    <h4>ตรวจสอบเกรดภาคเรียนที่1/2567 (ประถม)</h4>
+    <!-- ปุ่มเพื่อเปิดเว็บไซต์ใน iframe -->
+    <button id="btn1">วิชาอิสลาม</button>
+    <button id="btn2">วิชาสามัญ</button>
+
+    <!-- กำหนด iframe -->
+    <iframe id="webframe" src="" frameborder="0"></iframe>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
